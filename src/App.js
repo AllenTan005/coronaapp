@@ -58,6 +58,8 @@ const App = () => {
 
   const url = "https://api.covid19api.com";
 
+  console.log(url)
+  
   useEffect(() => {
     const getSummary = async () => {
       try {
